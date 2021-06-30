@@ -57,6 +57,10 @@
     <Compile Include="Migrations\202106300657280_caseAdded.designer.cs">
       <DependentUpon>202106300657280_caseAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202106300715495_sightIngAdded.cs" />
+    <Compile Include="Migrations\202106300715495_sightIngAdded.designer.cs">
+      <DependentUpon>202106300715495_sightIngAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -67,6 +71,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202106300657280_caseAdded.resx">
       <DependentUpon>202106300657280_caseAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202106300715495_sightIngAdded.resx">
+      <DependentUpon>202106300715495_sightIngAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
